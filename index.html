@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,47 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
+
 <body>
     <div class="container">
-        <form>
-            <h2>Create A New Account</h2>
+        <form id="form1">
+            <h2>Create a Account</h2>
             <input type="text" placeholder="Email" required>
-            <input type="text" placeholder="Password" required>
-            
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <div class="box-btn">
+                <button>Next</button>
+            </div>
         </form>
+
+        <form id="form3">
+            <h2>Personal Info</h2>
+            <input type="text" placeholder="Full Name" required>
+            <input type="password" placeholder="City" required>
+            <input type="password" placeholder="Phone No." required>
+            <div class="box-btn">
+                <button type="button">Back</button>
+                <button type="button">Next</button>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h2>Social Links</h2>
+            <input type="text" placeholder="Github" required>
+            <input type="text" placeholder="LinkedIn" required>
+            <input type="text" placeholder="Netlify" required>
+            <div class="box-btn">
+                <button type="button">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Step 1</small></div>
+            <div class="step-col"><small>Step 2</small></div>
+            <div class="step-col"><small>Step 3</small></div>
+        </div>
     </div>
 
 </body>

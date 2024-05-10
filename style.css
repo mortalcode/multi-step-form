@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: gray;
+  background-image: url(/images/richard-horvath-_nWaeTF6qo0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 350px;
+  height: 500px;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container form {
+  width: 280px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+
+.container form input {
+  width: 90%;
+  padding: 10px 2px;
+  margin: 8px 1px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.box-btn {
+  width: 100%;
+  margin: 20% auto;
+  text-align: center;
+}
+
+.box-btn button {
+  padding: 1rem 2.5rem;
+  text-align: center;
+  color: white;
+  background-color: rgb(129, 51, 208);
+  border-radius: 10px;
+  border: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.box-btn button:hover {
+  color: white;
+  background-color: rebeccapurple;
+  box-shadow: 1px 0px 8px rebeccapurple;
+  border: 0;
+  border-radius: 10px;
+}
+
+#form2 {
+  left: 450px;
+}
+#form3 {
+  left: 450px;
+}
+
+.step-row{
+  width: 350px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -1px 5px -1px #000;
+  position: relative;
+}
+
+.step-col{
+  width: 120px;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
