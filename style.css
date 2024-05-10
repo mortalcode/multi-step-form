@@ -74,7 +74,7 @@ h2 {
   left: 450px;
 }
 
-.step-row{
+.step-row {
   width: 350px;
   height: 40px;
   margin: 0 auto;
@@ -84,9 +84,17 @@ h2 {
   position: relative;
 }
 
-.step-col{
+.step-col {
   width: 120px;
   text-align: center;
   color: #333;
   position: relative;
+}
+
+#progress {
+  position: absolute;
+  height: 100%;
+  width: 120px;
+  background-color: rgb(157, 96, 218);
+  
 }
